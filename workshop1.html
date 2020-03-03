@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideDown("slow");
+    });
+});
+</script>
+<style>
+/* {
+    box-sizing: border-box;
+}*/
+
+body {
+  margin: 0;
+    background-image: url("sem.jpg");
+    text-decoration-color: red;
+}
+
+/* Style the header */
+.header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+    h1{
+        text-align: left;
+    }
+    h2{
+        text-decoration-color: black;
+    }
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: right;
+    width: 33.33%;
+    padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}    
+/* Style the top navigation bar */
+/*.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+/*.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+/*.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Create three unequal columns that floats next to each other */
+/*.column {
+    float: left;
+    padding: 10px;
+}*/
+
+/* Left and right column */
+/*.column1 {
+    float: right;
+    width: -20%;
+    padding: 10px;
+}
+
+/* Middle column */
+/*.column.middle {
+    float: center;
+    width: 70%;
+}
+
+/* Clear floats after the columns */
+/*.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+/*@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}*/
+ #panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}  
+</style>
+</head>
+<body>
+
+<div class="header">
+    
+    <h1>ISTE-RAIT</h1>
+        <img src="logoiste.png" width="150" height="120" align="left">
+<h2 style="text-align:center;font-size:200%;font-family:courier,cursive;">"With the new day comes new strength and new thoughts
+</h2>
+  <h2>
+      -Eleanor Roosevelt.</h2>
+</div>
+             
+      <div class="row">
+      <div class="column">
+      <h1><div style="font-size:120%;">Workshops</div></h1>
+      <ul>
+        <h2>
+    <li style="font-size:120%;">Workshop on C</li>
+    <li style="font-size:120%;">Hands on workshop on Java</li>
+    <li style="font-size:120%;">Workshop on java using Django Framework</li>    
+    <li style="font-size:120%;">IoT workshop using arduino</li>           
+        </h2>
+      </ul>
+       </div>
+          
+    <div class="column">      
+    <h1><div style="font-size:120%;">Seminars</div></h1>
+    <ul><h2>
+    <li style="font-size:120%;">Cryptography</li>
+    <li style="font-size:120%;">Cloud Computing</li>
+    <li style="font-size:120%;">Cyber Security</li>
+    <li style="font-size:120%;">Artificial Intelligence</li> 
+    </h2>
+    </ul>
+    </div>  
+</body>
+</html>

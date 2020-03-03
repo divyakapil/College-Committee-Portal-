@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <a href="login.html"></a>
+    <a href="form1.html"></a>
+    <a href="workshop1.html"></a>
+    
+<style>
+    b:link, b:visited {
+    background-color: green;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: darkseagreen;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display:block;
+}
+    
+.topnav a:hover {
+  background-color: green;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: none;
+  color: white;
+}
+    .topnav .search-container{
+        float:right;
+    }
+    
+ h1{
+     background-image:url("gradient.jpg");
+/*background-color: deepskyblue;*/
+text-align: center;
+text-decoration-color: blue;
+    text-shadow: 2px 2px;
+     color:black;
+}
+    h2{
+        /*background-color: deepskyblue;*/
+        background-image:url("gradient.jpg");
+        text-align: center;
+        color:black;
+    }
+    h3{
+    text-align: right;
+    color: white; }
+    
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+    
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+/*.button {
+    background-color: darkgrey;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float:right;
+}*/
+  * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: url("gradient.jpg");
+
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: black;
+}
+
+    }
+    
+</style>
+    </head>
+    <body>
+     <h1>Ramrao Adik Institute of Technology
+    <br>
+    <img src="raii.jpg" width="170" height="100">
+    <h1>College Committee Portal</h1> 
+        
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+    <a href="login.html">Login</a>
+    <a href="form1.html">Register</a>
+      <div class="search-container">
+    <form action="/action_page.php">
+      <button type="submit">Submit<i class="fa fa-search"></i></button>
+        <input type="text" placeholder="Search.." name="search">
+    </form>
+    </div>
+    </div>
+        <br>
+        <div class="row">
+  <div class="column">
+    <div class="card">
+    <h2>ISTE</h2>
+    <p>RAIT has ISTE student Chapter and ISTE Faculty chapter.During an
+    academic year the students chapter organizes technical event INNOVISION 
+    for odd semester and TECHNOZION for even semester.The main motto is Career
+    Development of Teachers and Personality Development of Students.</p>
+        <h4><a href="default.asp" target="_blank" ><a href="jq.php">ISTE</a></h4>
+     </div>
+    <br class="clear">
+    </div>
+  <div class="column" >
+      <div class="card">
+    <h2>CSI</h2>
+    <p>Computer Society of India (CSI) - RAIT is the student chapter of CSI.
+    During an academic calendar they organise Techmate and Techknow:
+    the tech fests and three annual publications:
+    Cozine,Technophilia and Decrypt.</p>
+          <h4><a href="default.asp" target="_blank">CSI</a></h4>
+  </div>
+    <br class="clear"> 
+        </div>
+            <div class="column">
+            <div class="card">
+                <h2>ISA</h2>
+                <p>ISA - RAIT is the student chapter of Department of Instrumentation.
+                During an academic calendar they organise Genesis and Niyantran-the 
+                tech fests and three annual publications-ISAAC magazine; Automatrix
+                and Insight newsletters.</p>
+                <h4><a href="default.asp" target="_blank">ISA</a></h4>
+                </div>
+                <br class="clear">
+            </div>
+            <div class="column">
+            <div class="card">
+                <h2>IEEE</h2>
+                <p>IEEE - RAIT is the student chapter of IEEE.
+                During an academic calendar they organise Whizion and 
+                360 Degrees-the tech fests and three annual publications.</p>
+                <h4><a href="default.asp" target="_blank">IEEE</a></h4>
+                </div>
+                <br class="clear">
+            </div>
+            </div>
+        <div>
+            <div class="column">
+            <div class="card">
+                <h2>Kalaraag</h2>
+                <p>Kalaraag is a unique endeavour started by the students to show
+                their talents in fine arts and creative art.It has consistently proved
+                its mettle in performing art by winning accolades in folk dances,skits
+                theatre and other forms of art by winning prizes for many years at the
+                university level.So professionally has it presented itself that it has links in the
+                Marathi theatre and cinema world.</p>
+                <h4><a href="default.asp" target="_blank">Kalaraag</a></h4>
+                </div>
+            </div>
+            
+            <div class="column">
+            <div class="card">
+                <h2>Social Wing</h2>
+                <p>Social Wing was formed in September,2013 and has undertaken activities like
+                teaching underprivileged children,awareness drives(through seminar/street plays),
+                various environmental activities(clean up drives,promoting renewable energy resources etc).
+                The Social Wing is open for everyone who wants to volunteer for many such activities.
+                </p>
+                <h4><a href="default.asp" target="_blank">Social Wing</a></h4>
+                </div>
+            </div>
+            
+            <div class="column">
+            <div class="card">
+                <h2>Sports</h2>
+                <p>Students of RAIT are not only known for their academic performance
+                but are also sports enthusiast they play Cricket, Football, Basket Ball,
+                Table Tennis,Swimming and various other sports.D.Y.Patil Sports Academy
+                encourages the students to utilise all the resources available in the campus.
+                RAIT organises Stamina which is a 3-day Intra RAIT sports tournament that sees
+                top participation for all events.
+                </p>
+                <h4><a href="default.asp" target="_blank">Sports</a></h4>
+                </div>
+            </div>
+                
+            
+            <div class="column">
+            <div class="card">
+                <h2>ITSA</h2>
+                <p>ITSA-RAIT is the student chapter of Department of 
+                Information Technology.Indian Telecommunication Services Association is an Association
+                of ITS officers.The Indian Telecommunications Service,widely known as ITS,is an organised
+                Group A Central Civil Service of Government of India.The appointment to this service is
+                done through Combined Engineering Services exam held every year by UPSC of India.</p>
+                <h4><a href="default.asp" target="_blank">ITSA</a></h4>
+                </div>
+            </div>
+            
+</div>
+
+<div style="padding-left:16px">
+    
+</div>
+</body>
+</html>
